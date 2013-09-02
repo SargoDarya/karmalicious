@@ -1,0 +1,96 @@
+body {
+	font: 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url(stripe.png);
+}
+
+#outerWrap {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#innerWrap {
+    width: 560px;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    background-color: white;
+    border: 1px solid #696;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: #333 0px 5px 5px;
+    -moz-box-shadow: #333 0px 5px 5px;
+    box-shadow: #333 0px 5px 5px;
+}
+
+#paddingWrap {
+    margin: 20px;
+}
+
+table tr th,    
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+	sans-serif;
+	color: #6D929B;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA no-repeat;
+}
+
+tr:hover,
+tr:hover td {
+    background-color: #eee;
+}
+
+table th {
+    background-color: #ddd;
+}
+
+table td.numberCell {
+    text-align: right;
+}
+
+table td, table th {
+    vertical-align: middel;
+    font-weight: normal;
+    text-align: left;
+    padding: 4px 10px 4px 5px;
+}
+
+
+#karmaLevelBar {
+    border: 1px solid black;
+    background-color: #7d9;
+}
+
+#karmaLevelProgress {
+    background: url(progressbar.png);
+    height: 30px;
+    margin: 1px;
+}
+#karmaLevelProgressText {
+    color: white;
+    height: 0px;
+    text-align: right;
+}
+#karmaLevelProgressText span {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.timeAgo {
+	color: #666;
+	font-weight: bold;
+}
+
+.milestone1 {
+	background: url(images/bg_gold_gradient40.jpg) repeat-x;
+}
